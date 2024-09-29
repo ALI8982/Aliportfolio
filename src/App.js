@@ -7,16 +7,18 @@ import BadgeContainer from './Components/BadgeContainer'
 import Testimonials from './Components/Testimonials'
 import { Testimonialcontainer } from './Components/Testimonialcontainer'
 import Footer from './Components/Footer'
+import { ContactUs } from './Components/ContactUs'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-[#fffce5]'>
       
       <Navbar />
       <Hero />
       <Container />
       {/* <BadgeContainer /> */}
       <Testimonialcontainer /> 
+      <ContactUs />
       <Footer /> 
     </div>
   )
